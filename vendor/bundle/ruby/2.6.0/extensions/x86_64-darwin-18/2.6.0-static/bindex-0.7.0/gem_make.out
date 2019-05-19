@@ -1,0 +1,15 @@
+current directory: /Users/kanaihajime/Desktop/WebApp/devise_sample/vendor/bundle/ruby/2.6.0/gems/bindex-0.7.0/ext/skiptrace
+/Users/kanaihajime/.rbenv/versions/2.6.2/bin/ruby -I /Users/kanaihajime/.rbenv/versions/2.6.2/lib/ruby/2.6.0 -r ./siteconf20190519-43593-194k832.rb extconf.rb
+creating Makefile
+
+current directory: /Users/kanaihajime/Desktop/WebApp/devise_sample/vendor/bundle/ruby/2.6.0/gems/bindex-0.7.0/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /Users/kanaihajime/Desktop/WebApp/devise_sample/vendor/bundle/ruby/2.6.0/gems/bindex-0.7.0/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/cruby.bundle
+
+current directory: /Users/kanaihajime/Desktop/WebApp/devise_sample/vendor/bundle/ruby/2.6.0/gems/bindex-0.7.0/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20190519-43593-3rm6n1/skiptrace

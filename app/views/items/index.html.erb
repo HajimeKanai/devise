@@ -1,0 +1,8 @@
+<h1>購入商品一覧</h1>
+<% if user_signed_in? %>
+    <% @items.each do |item| %>
+        <p><%= item.name %> : <%= item.price %> : 購入者<%= item.user.nickname if item.user.nickname.present? %></p>
+    <% end %>
+<% else %>
+    <p>ログインしてください</p>
+<% end %>
