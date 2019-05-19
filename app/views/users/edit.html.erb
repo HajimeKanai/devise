@@ -1,0 +1,10 @@
+<h2><%= @user.nickname %>のマイページ</h2>
+
+<%= form_for @user, medhod: :post do |f| %>
+    <h1>ユーザー編集</h1>
+    <p>ニックネーム：<%= f.text_field :nickname %></p>
+    <p>メールアドレス：<%= f.text_field :email %></p>
+    <input type="submit" value="送信">
+    <p>画像: <%= f.file_field :avatar %></p>
+    <input type="submit" value="アップロード">
+<% end %>

@@ -4,7 +4,15 @@ test:
 
 local:
   service: Disk
-  root: <%= Rails.root.join("storage") %>
+  root: <%= Rails.root.join("tmp/storage") %>
+
+# amazon:
+#   service: s3
+#   accsess_key_id: ""
+#   secret_access_key: ""
+#   region: ""
+#   bucket: ""
+
 
 # Use rails credentials:edit to set the AWS secrets (as aws:access_key_id|secret_access_key)
 # amazon:

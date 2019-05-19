@@ -3,5 +3,8 @@ Rails.application.routes.draw do
 
   root to: "items#index"
   resources :items
-  resources :users, only: :show
+  resources :users, only: [:show, :edit, :update]
+
+
+#   post "user/:id/edit" => "user/edit"
 end
